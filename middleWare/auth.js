@@ -1,7 +1,7 @@
 import JWT from 'jsonwebtoken';
 import dotenv from 'dotenv';
+import userModel from '../models/userModel.js';
 import ErrorHandler from './errorHandler.js';
-import userModel from '../models/onboarding/userModel.js';
 
 dotenv.config();
 async function signJwt(payloadData) {

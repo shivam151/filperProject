@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from 'cors';
 import indexRoutes from './routes/index.js';
 
-// import './utils/db.js';
+import './utils/db.js';
 
 dotenv.config();
 

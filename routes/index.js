@@ -6,9 +6,8 @@ import dashboard from './dashboard.js'
 
 
 
-
-
 app.use('/api/dashboard',dashboard )
+
 
 
 
