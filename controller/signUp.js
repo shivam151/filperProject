@@ -2,7 +2,7 @@
 import bcrypt from 'bcrypt';
 import userModel from '../models/userModel.js';
 import ErrorHandler from '../middleWare/errorHandler.js';
-
+import Randomstring from 'randomstring';
 
 
 const signUp = async (req, res, next) => {
@@ -35,9 +35,7 @@ const signUp = async (req, res, next) => {
             email: email,
             password: encryptedPassword,
         });
-       await profile.create({
-        userId:userId
-       })
+       
         return res.status(200).json({
             status: true,
             code: 200,
