@@ -1,0 +1,4 @@
+PORT = 8100
+mongoURI = ''
+ACCESS_TOKEN_SECRET='rateshopper%3C%2FmxGraphModel%dfghjhegfwcdfgh/R-JOB'
+ACCESS_TOKEN_TIMEOUT_DURATION='24h'

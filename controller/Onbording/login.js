@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt"
-import userModel from "../models/userModel.js";
-import { signJwt } from "../middleWare/auth.js";
-import ErrorHandler from "../middleWare/errorHandler.js";
+import userModel from "../../models/userModel.js";
+import { signJwt } from "../../middleWare/auth.js";
+import ErrorHandler from "../../middleWare/errorHandler.js";
 
 
 

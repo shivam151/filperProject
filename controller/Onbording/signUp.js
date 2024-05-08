@@ -1,7 +1,7 @@
 
 import bcrypt from 'bcrypt';
-import userModel from '../models/userModel.js';
-import ErrorHandler from '../middleWare/errorHandler.js';
+import userModel from '../../models/userModel.js';
+import ErrorHandler from '../../middleWare/errorHandler.js';
 import Randomstring from 'randomstring';
 
 
